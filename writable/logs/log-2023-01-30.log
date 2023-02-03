@@ -1,0 +1,1034 @@
+CRITICAL - 2023-01-30 06:20:22 --> bidan_pagination is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bidan_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('bidan', 'bidan_pagination')
+ 3 APPPATH\Views\admin\databidan.php(86): CodeIgniter\Pager\Pager->links('bidan', 'bidan_pagination')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 7 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:28:01 --> bidan_pagination is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bidan_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('bidan', 'bidan_pagination')
+ 3 APPPATH\Views\admin\databidan.php(86): CodeIgniter\Pager\Pager->links('bidan', 'bidan_pagination')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 7 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:32:32 --> Attempt to read property "foto" on array
+in APPPATH\Views\admin\databidan.php on line 74.
+ 1 APPPATH\Views\admin\databidan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto" on array', 'APPPATH\\Views\\admin\\databidan.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:33:33 --> Attempt to read property "foto" on array
+in APPPATH\Views\admin\databidan.php on line 74.
+ 1 APPPATH\Views\admin\databidan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto" on array', 'APPPATH\\Views\\admin\\databidan.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:35:14 --> Attempt to read property "foto" on array
+in APPPATH\Views\admin\databidan.php on line 74.
+ 1 APPPATH\Views\admin\databidan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto" on array', 'APPPATH\\Views\\admin\\databidan.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:35:39 --> Attempt to read property "foto" on array
+in APPPATH\Views\admin\databidan.php on line 74.
+ 1 APPPATH\Views\admin\databidan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto" on array', 'APPPATH\\Views\\admin\\databidan.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:36:35 --> Attempt to read property "bidannama" on array
+in APPPATH\Views\admin\databidan.php on line 73.
+ 1 APPPATH\Views\admin\databidan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "bidannama" on array', 'APPPATH\\Views\\admin\\databidan.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:39:14 --> Attempt to read property "foto" on array
+in APPPATH\Views\admin\databidan.php on line 74.
+ 1 APPPATH\Views\admin\databidan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto" on array', 'APPPATH\\Views\\admin\\databidan.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(36): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:45:29 --> Undefined variable $currentPage
+in APPPATH\Views\admin\databidan.php on line 70.
+ 1 APPPATH\Views\admin\databidan.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentPage', 'APPPATH\\Views\\admin\\databidan.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:45:53 --> Undefined variable $i
+in APPPATH\Views\admin\databidan.php on line 73.
+ 1 APPPATH\Views\admin\databidan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'APPPATH\\Views\\admin\\databidan.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:46:48 --> Attempt to read property "foto" on array
+in APPPATH\Views\admin\databidan.php on line 74.
+ 1 APPPATH\Views\admin\databidan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "foto" on array', 'APPPATH\\Views\\admin\\databidan.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:47:53 --> Attempt to read property "bidannama" on array
+in APPPATH\Views\admin\databidan.php on line 75.
+ 1 APPPATH\Views\admin\databidan.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "bidannama" on array', 'APPPATH\\Views\\admin\\databidan.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:48:18 --> Attempt to read property "id" on array
+in APPPATH\Views\admin\databidan.php on line 78.
+ 1 APPPATH\Views\admin\databidan.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\admin\\databidan.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:52:53 --> bidan_pagination is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bidan_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('bidan', 'bidan_pagination')
+ 3 APPPATH\Views\admin\databidan.php(86): CodeIgniter\Pager\Pager->links('bidan', 'bidan_pagination')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 7 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 06:52:59 --> bidan_pagination is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bidan_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('bidan', 'bidan_pagination')
+ 3 APPPATH\Views\admin\databidan.php(86): CodeIgniter\Pager\Pager->links('bidan', 'bidan_pagination')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 7 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 07:05:57 --> Undefined variable $ka
+in APPPATH\Views\admin\databidan.php on line 79.
+ 1 APPPATH\Views\admin\databidan.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ka', 'APPPATH\\Views\\admin\\databidan.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\databidan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/databidan', [], true)
+ 5 APPPATH\Controllers\Bidan.php(39): view('admin/databidan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bidan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bidan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 07:25:29 --> Cannot use object of type Myth\Auth\Entities\User as array
+in APPPATH\Views\admin\datauser.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 4 APPPATH\Controllers\Admin.php(40): view('admin/datauser', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 07:26:49 --> Cannot use object of type Myth\Auth\Entities\User as array
+in APPPATH\Views\admin\datauser.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 4 APPPATH\Controllers\Admin.php(40): view('admin/datauser', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 07:29:14 --> Cannot use object of type Myth\Auth\Entities\User as array
+in APPPATH\Views\admin\datauser.php on line 74.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 4 APPPATH\Controllers\Admin.php(40): view('admin/datauser', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 07:55:27 --> Call to undefined method CodeIgniter\Pager\Pager::link()
+in APPPATH\Views\kader\datakeluarga.php on line 96.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/datakeluarga', [], true)
+ 4 APPPATH\Controllers\Keluarga.php(36): view('kader/datakeluarga', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Keluarga->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 08:18:43 --> Undefined array key "idkeluarga"
+in APPPATH\Views\kader\datakeluarga.php on line 92.
+ 1 APPPATH\Views\kader\datakeluarga.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkeluarga"', 'APPPATH\\Views\\kader\\datakeluarga.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\datakeluarga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/datakeluarga', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(36): view('kader/datakeluarga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Keluarga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 08:21:20 --> mysqli_sql_exception: Unknown column 'bumil.deleted_at' in 'where clause' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4\app\Controllers\Bumil.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Bumil->index()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-30 08:21:20 --> Unknown column 'bumil.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `bumil`
+WHERE `bumil`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bumil`
+WHERE `bumil`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bumil`
+WHERE `bumil`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bumil`
+WHERE `bumil`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Bumil.php(17): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 08:45:32 --> Undefined variable $currentPage
+in APPPATH\Views\kader\databumil.php on line 64.
+ 1 APPPATH\Views\kader\databumil.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentPage', 'APPPATH\\Views\\kader\\databumil.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\databumil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 5 APPPATH\Controllers\Bumil.php(26): view('kader/databumil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 08:48:39 --> Undefined array key "ibunohp"
+in APPPATH\Views\kader\databumil.php on line 71.
+ 1 APPPATH\Views\kader\databumil.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ibunohp"', 'APPPATH\\Views\\kader\\databumil.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\databumil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 5 APPPATH\Controllers\Bumil.php(36): view('kader/databumil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 08:54:55 --> Call to undefined method App\Models\BumilModel::get_data
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Bumil.php(32): CodeIgniter\Model->__call('get_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 08:56:22 --> mysqli_sql_exception: Unknown column 'namabumil' in 'field list' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nik`, `...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nik`, `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nik`, `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nik`, `...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\BumilModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\app\Controllers\Bumil.php(32): App\Models\BumilModel->getAllData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Bumil->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-30 08:56:23 --> Unknown column 'namabumil' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nik`, `namabumil`, `anakke`, `ibunohp`, `ayahnama`, `ayahnohp`, `alamat`
+FROM `bumil`
+JOIN `keluarga` ON `bumil`.`nokk`=`keluarga`.`nokk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nik`, `namabumil`, `anakke`, `ibunohp`, `ayahnama`, `ayahnohp`, `alamat`
+FROM `bumil`
+JOIN `keluarga` ON `bumil`.`nokk`=`keluarga`.`nokk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nik`, `namabumil`, `anakke`, `ibunohp`, `ayahnama`, `ayahnohp`, `alamat`
+FROM `bumil`
+JOIN `keluarga` ON `bumil`.`nokk`=`keluarga`.`nokk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nik`, `namabumil`, `anakke`, `ibunohp`, `ayahnama`, `ayahnohp`, `alamat`
+FROM `bumil`
+JOIN `keluarga` ON `bumil`.`nokk`=`keluarga`.`nokk`', [], false)
+ 5 APPPATH\Models\BumilModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Bumil.php(32): App\Models\BumilModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 08:57:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\kader\databumil.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 4 APPPATH\Controllers\Bumil.php(37): view('kader/databumil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 08:58:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\kader\databumil.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 4 APPPATH\Controllers\Bumil.php(37): view('kader/databumil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 09:00:00 --> Cannot use object of type stdClass as array
+in APPPATH\Views\kader\databumil.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 4 APPPATH\Controllers\Bumil.php(37): view('kader/databumil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 09:01:02 --> Undefined property: stdClass::$ayahnoh
+in APPPATH\Views\kader\databumil.php on line 73.
+ 1 APPPATH\Views\kader\databumil.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ayahnoh', 'APPPATH\\Views\\kader\\databumil.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\databumil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 5 APPPATH\Controllers\Bumil.php(37): view('kader/databumil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 09:01:15 --> Undefined property: stdClass::$id
+in APPPATH\Views\kader\databumil.php on line 77.
+ 1 APPPATH\Views\kader\databumil.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\kader\\databumil.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\databumil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 5 APPPATH\Controllers\Bumil.php(37): view('kader/databumil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 09:01:48 --> Undefined variable $ka
+in APPPATH\Views\kader\databumil.php on line 83.
+ 1 APPPATH\Views\kader\databumil.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ka', 'APPPATH\\Views\\kader\\databumil.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\databumil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 5 APPPATH\Controllers\Bumil.php(37): view('kader/databumil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 09:02:33 --> Cannot use object of type stdClass as array
+in APPPATH\Views\kader\databumil.php on line 83.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/databumil', [], true)
+ 4 APPPATH\Controllers\Bumil.php(37): view('kader/databumil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Bumil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bumil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 09:18:50 --> Undefined variable $ka
+in APPPATH\Views\kader\datakeluarga.php on line 89.
+ 1 APPPATH\Views\kader\datakeluarga.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ka', 'APPPATH\\Views\\kader\\datakeluarga.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\datakeluarga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/datakeluarga', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(36): view('kader/datakeluarga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Keluarga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 09:29:00 --> Cannot use object of type Myth\Auth\Entities\User as array
+in APPPATH\Views\admin\datauser.php on line 74.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 4 APPPATH\Controllers\Admin.php(40): view('admin/datauser', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 10:07:14 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Admin.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-30 10:07:14 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`.`id`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`', [], false)
+ 5 APPPATH\Controllers\Admin.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:09:09 --> Attempt to read property "username" on array
+in APPPATH\Views\admin\datauser.php on line 74.
+ 1 APPPATH\Views\admin\datauser.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Views\\admin\\datauser.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\datauser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 5 APPPATH\Controllers\Admin.php(48): view('admin/datauser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:09:27 --> Undefined property: stdClass::$userid
+in APPPATH\Views\admin\datauser.php on line 78.
+ 1 APPPATH\Views\admin\datauser.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$userid', 'APPPATH\\Views\\admin\\datauser.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\datauser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 5 APPPATH\Controllers\Admin.php(48): view('admin/datauser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:09:31 --> Undefined property: stdClass::$userid
+in APPPATH\Views\admin\datauser.php on line 78.
+ 1 APPPATH\Views\admin\datauser.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$userid', 'APPPATH\\Views\\admin\\datauser.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\datauser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 5 APPPATH\Controllers\Admin.php(48): view('admin/datauser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:10:30 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\datauser.php on line 74.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 4 APPPATH\Controllers\Admin.php(48): view('admin/datauser', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:12:25 --> Undefined property: stdClass::$userid
+in APPPATH\Views\admin\datauser.php on line 78.
+ 1 APPPATH\Views\admin\datauser.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$userid', 'APPPATH\\Views\\admin\\datauser.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\datauser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datauser', [], true)
+ 5 APPPATH\Controllers\Admin.php(48): view('admin/datauser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->datauser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:29:12 --> Attempt to read property "username" on null
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:30:19 --> Undefined variable $users
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:30:46 --> Undefined variable $users
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:30:58 --> Undefined variable $user
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:31:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:31:32 --> Attempt to read property "username" on null
+in APPPATH\Views\template\topbar.php on line 11.
+ 1 APPPATH\Views\template\topbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\topbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/topbar', null, true)
+ 5 APPPATH\Views\template\index.php(73): CodeIgniter\View\View->include('template/topbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin.php(19): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:31:57 --> Attempt to read property "username" on null
+in APPPATH\Views\template\topbar.php on line 11.
+ 1 APPPATH\Views\template\topbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\topbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/topbar', null, true)
+ 5 APPPATH\Views\template\index.php(73): CodeIgniter\View\View->include('template/topbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin.php(19): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:32:17 --> Attempt to read property "username" on null
+in APPPATH\Views\template\topbar.php on line 11.
+ 1 APPPATH\Views\template\topbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\topbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/topbar', null, true)
+ 5 APPPATH\Views\template\index.php(73): CodeIgniter\View\View->include('template/topbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin.php(19): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:32:21 --> Attempt to read property "username" on null
+in APPPATH\Views\template\topbar.php on line 11.
+ 1 APPPATH\Views\template\topbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\topbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/topbar', null, true)
+ 5 APPPATH\Views\template\index.php(73): CodeIgniter\View\View->include('template/topbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+10 APPPATH\Controllers\Admin.php(19): view('admin/index')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:32:58 --> Object of class Myth\Auth\Entities\User could not be converted to string
+in APPPATH\Views\template\index.php on line 44.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:35:13 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('datakeluarga', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:35:41 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('databumil', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:48:11 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('dataanak', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:54:54 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('dataanak', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 10:57:47 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('dataanak', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 11:24:39 --> Undefined property: stdClass::$nik
+in APPPATH\Views\kader\datakb.php on line 75.
+ 1 APPPATH\Views\kader\datakb.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nik', 'APPPATH\\Views\\kader\\datakb.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\datakb.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/datakb', [], true)
+ 5 APPPATH\Controllers\Kb.php(36): view('kader/datakb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Kb->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kb))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 11:25:31 --> Undefined variable $k
+in APPPATH\Views\kader\datakb.php on line 66.
+ 1 APPPATH\Views\kader\datakb.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'APPPATH\\Views\\kader\\datakb.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kader\\datakb.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kader/datakb', [], true)
+ 5 APPPATH\Controllers\Kb.php(36): view('kader/datakb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Kb->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kb))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 11:26:26 --> Attempt to read property "username" on null
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 11:31:18 --> Undefined variable $title
+in APPPATH\Views\template\index.php on line 10.
+ 1 APPPATH\Views\template\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\template\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 11:33:07 --> Undefined variable $title
+in APPPATH\Views\template\index.php on line 10.
+ 1 APPPATH\Views\template\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\template\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 11:37:46 --> Attempt to read property "username" on null
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 22:08:07 --> Attempt to read property "username" on null
+in APPPATH\Views\template\index.php on line 44.
+ 1 APPPATH\Views\template\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\template\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/index', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Admin.php(19): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 22:46:43 --> mysqli_sql_exception: Column 'alamat' in field list is ambiguous in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesm...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesm...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesm...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesm...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\app\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-30 22:46:43 --> Column 'alamat' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', [], false)
+ 5 APPPATH\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 22:47:14 --> mysqli_sql_exception: Column 'alamat' in field list is ambiguous in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesm...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesm...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesm...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesm...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\app\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-30 22:47:15 --> Column 'alamat' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', [], false)
+ 5 APPPATH\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 22:47:36 --> mysqli_sql_exception: Column 'alamat' in field list is ambiguous in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesm...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesm...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesm...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesm...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\app\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-30 22:47:36 --> Column 'alamat' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posyandu`.`alamat`, `posyandu`.`nohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', [], false)
+ 5 APPPATH\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 22:48:48 --> mysqli_sql_exception: Unknown column 'nohpn' in 'field list' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesm...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesm...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesm...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesm...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\app\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-30 22:48:48 --> Unknown column 'nohpn' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', [], false)
+ 5 APPPATH\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-30 22:49:00 --> mysqli_sql_exception: Unknown column 'nohpn' in 'field list' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesm...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesm...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesm...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesm...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\app\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-30 22:49:00 --> Unknown column 'nohpn' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `puskesmas`, `alamat`, `nohpn`, `posyandu`, `posalamat`, `posnohp`
+FROM `puskesmas`
+JOIN `posyandu` ON `puskesmas`.`idposyandu`=`posyandu`.`idposyandu`', [], false)
+ 5 APPPATH\Models\PuskesmasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Puskesmas.php(31): App\Models\PuskesmasModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 23:37:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\datapuskesmas.php on line 74.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datapuskesmas', [], true)
+ 4 APPPATH\Controllers\Puskesmas.php(36): view('admin/datapuskesmas', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 23:39:05 --> Undefined property: stdClass::$idpuskesmas
+in APPPATH\Views\admin\datapuskesmas.php on line 78.
+ 1 APPPATH\Views\admin\datapuskesmas.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idpuskesmas', 'APPPATH\\Views\\admin\\datapuskesmas.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\datapuskesmas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datapuskesmas', [], true)
+ 5 APPPATH\Controllers\Puskesmas.php(36): view('admin/datapuskesmas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-30 23:39:54 --> Undefined property: stdClass::$idpuskesmas
+in APPPATH\Views\admin\datapuskesmas.php on line 78.
+ 1 APPPATH\Views\admin\datapuskesmas.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idpuskesmas', 'APPPATH\\Views\\admin\\datapuskesmas.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\datapuskesmas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/datapuskesmas', [], true)
+ 5 APPPATH\Controllers\Puskesmas.php(36): view('admin/datapuskesmas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Puskesmas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

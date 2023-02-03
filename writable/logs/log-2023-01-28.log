@@ -1,0 +1,8 @@
+CRITICAL - 2023-01-28 10:51:44 --> Call to undefined method App\Models\UserModel::withGroup
+in SYSTEMPATH\Model.php on line 773.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(176): CodeIgniter\Model->__call('withGroup', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

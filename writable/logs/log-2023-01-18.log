@@ -1,0 +1,26 @@
+CRITICAL - 2023-01-18 08:33:23 --> Undefined variable $title
+in APPPATH\Views\auth\login.php on line 10.
+ 1 APPPATH\Views\auth\login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\auth\\login.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\App\\Views\\auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\auth\\login', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-18 08:34:17 --> Undefined variable $title
+in APPPATH\Views\auth\login.php on line 10.
+ 1 APPPATH\Views\auth\login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\auth\\login.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('\\App\\Views\\auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\auth\\login', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
