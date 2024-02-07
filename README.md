@@ -1,3 +1,56 @@
+Sistem Informasi Posyandu di Desa Gempolan berbasis Website dengan Bahasa Pemrograman PHP Framework CI4
+Tujuan Project:
+Membuat website sistem informasi Posyandu di Desa Gempolan untuk membantu kader Posyandu dalam mengelola data dan informasi terkait kegiatan Posyandu, serta meningkatkan partisipasi masyarakat dalam kegiatan Posyandu.
+
+Fitur Website:
+1. Data Kader:
+-Manajemen profil kader Posyandu
+-Penjadwalan dan pencatatan kegiatan kader
+2. Data Balita:
+-Pendaftaran dan pendataan balita
+-Pencatatan imunisasi, pertumbuhan, dan perkembangan balita
+-Pengingat jadwal imunisasi dan Posyandu
+3. Data Ibu Hamil:
+-Pendaftran dan pendataan ibu hamil
+-Pencatatan hasil pemeriksaan, pemberian obat 
+-Pengingat jadwal perikasa
+4. Data KB
+-Pendaftran dan pendataan program KB
+-Pencatatan hasil program KB 
+-Pengingat jadwal perikasa program KB
+5. Kegiatan Posyandu:
+-Penjadwalan dan pencatatan kegiatan Posyandu
+-Input data hasil penimbangan balita
+-Input data skrining kesehatan balita
+-Input data hasil penimbangan ibu hamil
+-Input data skrining kesehatan ibu hamil
+-Penyuluhan kesehatan
+6. Laporan:
+-Laporan data kader
+-Laporan data balita
+-Laporan data ibu hamil
+-Laporan data program KB
+-Laporan kegiatan Posyandu
+
+Teknologi yang Digunakan:
+-Bahasa Pemrograman: PHP
+-Framework: CodeIgniter 4 (CI4)
+-Database: MySQL
+-Bootstrap: Untuk tampilan website yang responsif
+-JavaScript: Untuk fitur interaktif
+
+Manfaat Website:
+-Memudahkan kader Posyandu dalam mengelola data dan informasi.
+-Meningkatkan partisipasi masyarakat dalam kegiatan Posyandu.
+-Meningkatkan kualitas kesehatan balita di Desa Gempolan.
+
+Target Pengguna:
+-Kader Posyandu
+-Orang tua balita
+-Bidan desa
+-Pemerintah desa
+
+
 # CodeIgniter 4 Development
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
